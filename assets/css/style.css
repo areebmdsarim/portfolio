@@ -1,0 +1,163 @@
+/* This is where you'll write your CSS!
+CSS is how you style your website, such as
+setting colours, changing the width and
+height of things, and beyond! The project
+also includes Bootstrap's CSS so you can
+use that without typing it in here! */
+
+/* This is some example custom CSS! It adds a blank line under the carousel! */
+.carousel {
+  margin-bottom: 1em;
+}
+
+html {
+  height: 100%;
+}
+body {
+  /* background-image: linear-gradient(45deg, #FFFFFF, rgb(255, 122, 89)); */
+  background-image: red;
+}
+
+.navbar-brand > img {
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+#social-icons {
+  background-color: #00083d;
+}
+#social-icons a i{
+  color: white;
+  padding: 1rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 50%;
+}
+
+#social-icons a i:hover{
+  /* color: white; */
+  box-shadow: 0px 0px 5px 2px rgba(243, 241, 236, 0.9);
+}
+
+
+#skills{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 2rem;
+  /* background-color: #403e3d; */
+  background-color: #91989c34;
+  /* background-color: #808080; */
+  /* color: rgb(2, 2, 117); */
+  color:  rgb(2, 2, 117);
+  /* color: white; */
+  font-weight: bold;
+  font-size: large;
+  
+
+}
+
+
+#my-skills{
+  display: flex;
+  flex-wrap: wrap;
+}
+#my-skills h1{
+  margin: auto;
+}
+.yes{    
+  width: 11rem;
+  margin: 1rem;
+  
+}
+#skl-1{
+  background-image: linear-gradient(to right, 	#af005f 50%, white );
+
+}
+#skl-2{
+  background-image: linear-gradient(to right, #d75f00 50%, white );
+
+}
+#skl-3{
+  background-image: linear-gradient(to right, #6c757d 50%, white );
+
+}
+#skl-4{
+  background-image: linear-gradient(to right, #198754 50%, white );
+
+}
+#skl-5{
+  background-image: linear-gradient(to right, #dc3545 50%, white );
+  color: white !important;
+
+}
+#skl-6{
+  background-image: linear-gradient(to right, #ffc107 50%, white );
+  color: white !important;
+
+}
+#skl-7{
+  background-image: linear-gradient(to right, #00afaf 50%, white );
+  color: white !important;
+
+}
+#skl-8{
+  background-image: linear-gradient(to right, #0dcaf0 30%, white );
+
+}
+
+
+#projects
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    /* padding: 2rem; */
+    text-align: center;
+    color:  rgb(2, 2, 117);
+    font-weight: bolder;
+
+
+}
+
+#projects div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+
+}
+
+
+#contact {
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #0abcf9;
+  background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+  
+  color: white;
+  padding-bottom: 5rem;
+}
+section:nth-child(2n) {
+  background-color: #9e9b9b29;
+}
+
+#contact-form {
+  margin-left: 20%;
+}
+user agent stylesheet
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+#contact-container {
+  display: flex;
+
+}
